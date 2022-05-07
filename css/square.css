@@ -1,0 +1,12 @@
+.black {
+    background-color: black;
+}
+
+canvas {
+    border:3px solid black;
+}
+
+body {
+    text-align: center;
+}
+
