@@ -6,3 +6,5 @@
 1.git rm //removes the file
 2.git commit -m"" //saves changes to git
 3.git push origin main // pushes the commit to github
+
+git commit -am == git add and git commit -m ""
