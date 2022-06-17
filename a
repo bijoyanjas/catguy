@@ -1,0 +1,8 @@
+1. touch //makes new file
+2.git add //adds new files or changes to git
+3.git commit -m "" //saves changes to git
+4.git push origin main //pushes the commit to github                       
+
+1.git rm //removes the file
+2.git commit -m"" //saves changes to git
+3.git push origin main // pushes the commit to github
