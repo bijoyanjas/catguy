@@ -3,17 +3,11 @@ var context = canvas.getContext("2d");
 context.fillStyle = "black";
 context.font = "bold 40px Arial";
 context.fillText("A", (canvas.width / 2) - 17, (canvas.height / 2) + 8);
-canvas.addEventListener('click', handleClick, true);
+canvas.addEventListener('click', handleEvent, true);
 
-var canvas = document.getElementById("B");
-var context = canvas.getContext("2d");
-context.fillStyle = "black";
-context.font = "bold 40px Arial";
-context.fillText("B", (canvas.width / 2) - 17, (canvas.height / 2) + 8);
-canvas.addEventListener('click', handleClick, true);
-
-function handleClick(param) {
-      if (param.target) {
-            alert(param.target.id);
-      }
+function handleEvent(param) {
+      var canvas = document.getElementById(param.target.id);
+      var ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
+
