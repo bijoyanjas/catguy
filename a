@@ -8,3 +8,7 @@
 3.git push origin main // pushes the commit to github
 
 git commit -am == git add and git commit -m ""
+
+cp -r (folder name)  (new folder name)
+
+git mv (file name)  （new file name)
