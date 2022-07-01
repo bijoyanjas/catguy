@@ -13,4 +13,4 @@ cp -r (folder name)  (new folder name)
 
 git mv (file name)  （new file name)
 
-cd .. // go into parent folder
+cd .. // go into parent foldergi
